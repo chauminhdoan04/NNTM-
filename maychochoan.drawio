@@ -1,0 +1,111 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="PKcLaXZLlmUhZA7Z_ERN">
+    <mxGraphModel dx="2406" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-2" target="YMGzJ6p2nf-LmpkvykGF-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-2" value="Khởi động" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-4" target="YMGzJ6p2nf-LmpkvykGF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-4" value="&lt;br&gt;Đọc thời gian thực từ module RTC&lt;div&gt;Tính cân nặng thức ăn trên khay từ cảm biến loadcell&lt;br&gt;Đọc dữ liệu cảm biến mực nước.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="213.75" y="260" width="172.5" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.965;exitY=0.487;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-6" target="YMGzJ6p2nf-LmpkvykGF-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-6" target="YMGzJ6p2nf-LmpkvykGF-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-6" value="Mực nước cao hơn ngưỡng&lt;br&gt;hoặc bình hết nước&amp;nbsp;&lt;br&gt;&lt;div&gt;?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="480" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-8" target="YMGzJ6p2nf-LmpkvykGF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-8" value="Tắt&amp;nbsp; relay bơm nước&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="690" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-10" target="YMGzJ6p2nf-LmpkvykGF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-10" value="Bật Relay" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="690" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-12" target="YMGzJ6p2nf-LmpkvykGF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-12" target="YMGzJ6p2nf-LmpkvykGF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-12" target="YMGzJ6p2nf-LmpkvykGF-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-12" value="thức ăn trên khay nặng hơn ngưỡng&lt;br&gt;?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="850" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-17" value="Servo gạt thả thức ăn&amp;nbsp; (180)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-18" value="Servo đóng chặn thức ăn(0)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="885" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-21" target="YMGzJ6p2nf-LmpkvykGF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-21" value="Tính lượng nước còn lại trong bình theo lưu lượng và thời gian bơm&lt;div&gt;Tính khối lượng thức ăn còn lại trog kho dựa trên lượng thức ăn đã thả trên&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1020" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-23" target="YMGzJ6p2nf-LmpkvykGF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-23" target="YMGzJ6p2nf-LmpkvykGF-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="1265" />
+              <mxPoint x="-40" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-23" value="CẬP Nhật dữ liệu lên web&lt;br&gt;Nhận lệnh reset /đồng bộ rtc từ&amp;nbsp;&lt;br&gt;Hiển thị LCD&lt;br&gt;Ghi lại /xóa lịch sử&amp;nbsp; web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="1210" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-24" value="Đ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="620" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-26" value="kẾT THÚC&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1415" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YMGzJ6p2nf-LmpkvykGF-28" target="YMGzJ6p2nf-LmpkvykGF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-28" value="Kết nối wifi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-32" value="LOOP" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="750" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-34" value="Đ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="880" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-35" value="S" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="885" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YMGzJ6p2nf-LmpkvykGF-36" value="S" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="630" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
